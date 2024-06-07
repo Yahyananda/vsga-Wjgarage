@@ -1,0 +1,82 @@
+    .navbar-navy {
+        background-color: #5A72A0;;
+    }
+    .banner {
+        position: relative;
+        background: url('https://img.freepik.com/free-photo/muscular-car-service-worker-repairing-vehicle_146671-19605.jpg?t=st=1717653069~exp=1717656669~hmac=7566b1f1fba444cf9cbe5fc8494b9ad07e0f7e40b31194dfe8cd0bb818f631bc&w=1060') no-repeat center center;
+        background-size: cover;
+        height: 100vh;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .banner::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        z-index: 1;
+    }
+    .banner-content {
+        position: relative;
+        z-index: 2;
+    }
+    .flex-4-column {
+        display: flex;
+        flex-direction: row; /* Mengatur elemen flex menjadi horizontal */
+        justify-content: space-around; /* Mengatur spasi antar elemen */
+        align-items: center; /* Mengatur elemen agar align secara vertikal di tengah */
+    }
+    
+    .flex-col {
+        flex: 1; /* Mengatur elemen flex agar memiliki ukuran yang sama */
+        text-align: center; /* Mengatur teks agar align di tengah */
+    }
+    
+    .items {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .section-description-md {
+        margin-top: 10px; /* Tambahkan margin untuk memberi ruang antara gambar dan teks */
+    }
+    .card-img-top1 {
+        height: 200px;
+        object-fit: cover;
+      }
+      
+      .card-body {
+        text-align: center;
+      }
+      
+      .card-titles {
+        font-size: 1.25rem;
+        font-weight: bold;
+      }
+      
+      .card-texts {
+        font-size: 1rem;
+        margin-bottom: 1.5rem;
+      }
+      .btnlanjut, .btnartikel{
+        background-color: #5A72A0;
+        color: white;
+        text-align: center;
+        border-radius: 10px;
+        padding: 10px;  
+      }
+      .copyright{
+        background-color: #5A72A0;
+        color: white;
+        text-align: center;
+      }
+footer{
+    background-color: #5A72A0;
+}
